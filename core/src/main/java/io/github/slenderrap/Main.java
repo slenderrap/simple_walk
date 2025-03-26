@@ -81,6 +81,8 @@ public class Main extends ApplicationAdapter {
                     currentAnimationIndex = (dirY > 0) ? 3 : 0;
                 }
             }
+        }else {
+            currentAnimationIndex=4;
         }
 
         batch.begin();
